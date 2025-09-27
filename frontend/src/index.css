@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+@import "tailwindcss";
+
+* {
+  font-family: "Outfit", sans-serif;
+}
+
+@theme {
+  --color-primary: #2e7d32; /* Fresh Green */
+  --color-primary-dull: #27692a; /* Primary-Dull Green */
+  --color-secondary: #ff9800; /* Bright Orange */
+  --color-carrot: #ffb74d; /* Carrot Orange */
+  --color-tomato: #e53935; /* Tomato Red */
+  --color-leafy: #388e3c; /* Leafy Green */
+  --color-glow: #8bc34a; /* Background Glow Green */
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
